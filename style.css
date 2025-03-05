@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+
+    height: 400px;
+    width: 300px;
+    background: beige;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.ri-heart-3-fill {
+    color: white;
+
+    font-size: 70px;
+
+    position: absolute;
+
+    transform: translate(-0%, -0%) scale(0);
+    transition: all ease;
+    opacity: 0.8;
+
+}
+
+.ri-heart-fill {
+
+font-size: 20px;
+
+}
+
+.ri-bookmark-line{
+    font-size: 20px;
+
+}
+
+.ri-share-line{
+    font-size: 20px;
+}
+
+.ri-chat-1-line{
+    font-size: 20px;
+}
+
+.ri-more-2-fill{
+    font-size: 20px;
+}
+.post-bottom {
+    margin-top: 5px;
+    height: 20px;
+    width: 290px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-left{
+    
+    height: 20px;
+    width:120px;
+    display: flex;
+    gap: 5px;
+   
+ 
+}
+
+.bottom-right{
+    height: 20px;
+    width:100px;
+ 
+
+    display: flex;
+    justify-content: end;
+ 
+}
+
+.post-top{
+    height: 30px;
+    width: 290px;
+
+    padding: 2px;
+    margin: 2px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left{
+    height: 30px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.top-left span{
+    font-size: 20px;
+}
+
+.top-right{
+    height: 30px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.circle{
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    border: solid black 2px;
+    overflow: hidden;
+}
+
+.circle img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.wrap{
+    height: 500px;
+    width: 320px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
