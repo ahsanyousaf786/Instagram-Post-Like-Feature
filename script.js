@@ -34,6 +34,8 @@ like_btn.addEventListener("click",function(){
     if(check==0 ){
         like_btn.style.color ="red"
         check=1
+        total_likes=1
+        document.getElementById("likes").innerHTML = total_likes;
    
       
     }else{
